@@ -18,8 +18,8 @@ A data frame with the results in Scopus format
 Merge a Web of Science bib file and a Scopus bib file
 }
 \examples{
-data(Bios)
 
-a <- Stratify(Bios)
+Test <- MergeToScopus(Scopus = system.file("extdata/scopus16aug.bib", package="BiblioUtils"),
+                      Wos = system.file("extdata/WOS11aug.bib", package="BiblioUtils"))
 
 }
